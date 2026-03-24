@@ -36,5 +36,6 @@ address a:visited {
 .sentence {
     font-style: italic;
 }
-Give the CSS “intro” class a text-indent of 2em 
-Hint: this style only applies to the first paragraph 
+address {
+    text-align: center;
+} 

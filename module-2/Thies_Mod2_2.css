@@ -1,0 +1,40 @@
+html, body {
+    font-size: 16px;
+}
+p {
+    font-weight: 400;
+}
+
+h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 500;
+    text-align: left;
+    padding-top: 15px;  
+}
+p {
+    font-weight: 400;
+    line-height: 1.4em;
+}
+address a {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #4F3674;
+    text-decoration: none;
+}
+address a:hover {
+    text-decoration: underline;
+    background-color: #D6A800;
+}
+address a:visited {
+    color: #3A275A;
+}
+.sentence {
+    font-style: italic;
+}
+Give the CSS “intro” class a text-indent of 2em 
+Hint: this style only applies to the first paragraph 

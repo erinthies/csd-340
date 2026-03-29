@@ -1,0 +1,36 @@
+/* Google Font Setup */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* Apply the font to the whole page */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Container spacing */
+#container {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+/* Heading styles */
+h1, h2, h3, h4 {
+    background-color: #4F3674; /* deep purple — accessible and consistent with your link color */
+    color: #FFFFFF;            /* white text for strong contrast */
+    border: 1px solid #D6A800;
+    padding: 10px;
+}
+/* Default link style */
+a {
+    color: #4F3674;        /* matches your heading background */
+    text-decoration: none; /* removes underline */
+}
+
+/* Hover state */
+a:hover {
+    color: #D6A800;        /* gold highlight on hover */
+}
+
+/* Visited state */
+a:visited {
+    color: #3A275A;        /* slightly darker purple for visited links */
+}

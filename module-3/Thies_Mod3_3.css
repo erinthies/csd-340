@@ -2,19 +2,26 @@
 h1 {
     text-align: center;
 }
-#left-div, #right-div {
+
+/* Side-by-side divs */
+#left-div,
+#right-div {
     width: 45%;
     float: left;
 }
+
+/* Add space between the two bordered sections */
 #left-div {
     margin-right: 2%;
 }
+
 /* Last div (full width + spacing) */
 #full-width-div {
     width: 100%;
     margin-top: 60%;
     float: right;
     margin-bottom: 20px;
+    clear: both; /* keeps it underneath the two columns */
 }
 
 /* h3 weight = 500 */
@@ -23,11 +30,12 @@ h3 {
 }
 
 /* List weight = 300 */
-ol, ul {
+ol,
+ul {
     font-weight: 300;
 }
 
-/* Ordered list + its title (h3 above it) */
+/* Ordered list + its title */
 #left-div h3,
 #left-div ol {
     border: 1px solid red;
@@ -36,7 +44,7 @@ ol, ul {
     list-style-position: inside;
 }
 
-/* Unordered list + its title (h3 above it) */
+/* Unordered list + its title */
 #right-div h3,
 #right-div ul {
     border: 1px dashed red;
@@ -44,4 +52,9 @@ ol, ul {
     padding: 10px;
     list-style-type: upper-roman;
     list-style-position: inside;
+}
+
+/* Hover underline for links */
+a:hover {
+    text-decoration: underline;
 }

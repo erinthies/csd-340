@@ -2,15 +2,13 @@
 h1 {
     text-align: center;
 }
-
-/* Side-by-side divs (left and right) */
-#left-div, 
-#right-div {
+#left-div, #right-div {
     width: 45%;
-    display: inline-block;
-    vertical-align: top;
+    float: left;
 }
-
+#left-div {
+    margin-right: 2%;
+}
 /* Last div (full width + spacing) */
 #full-width-div {
     width: 100%;
@@ -34,4 +32,16 @@ ol, ul {
 #left-div ol {
     border: 1px solid red;
     border-radius: 15px;
-    padding
+    padding: 10px;
+    list-style-position: inside;
+}
+
+/* Unordered list + its title (h3 above it) */
+#right-div h3,
+#right-div ul {
+    border: 1px dashed red;
+    border-radius: 15px;
+    padding: 10px;
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}

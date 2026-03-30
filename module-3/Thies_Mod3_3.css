@@ -1,0 +1,37 @@
+/* Center the h1 title */
+h1 {
+    text-align: center;
+}
+
+/* Side-by-side divs (left and right) */
+#left-div, 
+#right-div {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Last div (full width + spacing) */
+#full-width-div {
+    width: 100%;
+    margin-top: 60%;
+    float: right;
+    margin-bottom: 20px;
+}
+
+/* h3 weight = 500 */
+h3 {
+    font-weight: 500;
+}
+
+/* List weight = 300 */
+ol, ul {
+    font-weight: 300;
+}
+
+/* Ordered list + its title (h3 above it) */
+#left-div h3,
+#left-div ol {
+    border: 1px solid red;
+    border-radius: 15px;
+    padding

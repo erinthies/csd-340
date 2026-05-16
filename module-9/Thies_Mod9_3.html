@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+</head>
+
+<body>
+
+    <h1>Assignment 9.3: JavaScript - Part 1</h1>
+
+    <p>
+        When I was younger, I used to imagine that every ordinary day had a hidden story behind it. 
+        Sometimes I would picture a <span id="word1">_____</span> wandering through town, looking for adventure. 
+        Other times, I imagined what it would be like to suddenly learn how to <span id="word2">_____</span> with no explanation at all.
+    </p>
+
+    <p>
+        As I got older, those daydreams never really went away. Instead, they changed shape. 
+        Now I like to think about how a simple moment, like meeting a <span id="word3">_____</span> at the grocery store, 
+        could turn into something unexpected. Stories have a way of sneaking into everyday life when you least expect them.
+    </p>
+
+    <p>
+        Maybe that is why I still enjoy writing small scenes like this. 
+        Even a quiet afternoon can feel a little more interesting when you imagine that everything is about to become 
+        <span id="word4">_____</span>. It keeps life playful and reminds me that creativity does not disappear as we grow up.
+    </p>
+
+    <button onclick="document.getElementById('word1').innerHTML = wordOne;">Reveal Word 1</button>
+    <button onclick="document.getElementById('word2').innerHTML = wordTwo;">Reveal Word 2</button>
+    <button onclick="document.getElementById('word3').innerHTML = wordThree;">Reveal Word 3</button>
+    <button onclick="document.getElementById('word4').innerHTML = wordFour;">Reveal Word 4</button>
+
+    <script>
+        let wordOne = "traveler";
+        let wordTwo = "teleport";
+        let wordThree = "stranger";
+        let wordFour = "extraordinary";
+    </script>
+
+</body>
+</html>
